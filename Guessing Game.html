@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guessing Game</title>
+</head>
+
+<script type="text/javascript">
+	
+	var random = Math.floor(Math.random()*100) + 1;
+	var userInput = prompt("Guess character");
+	if (random == parseInt(userInput)) 
+	{
+		document.write("You Won");
+		document.write("<br>" + "The correct number is " + random);
+	}
+	else
+	{
+		document.write("You Lose");
+		document.write("<br>" + "The correct number is " + random);
+	}
+
+</script>
+
+<body style="background: #4267b1; color: #e9ebee; font-size: 22pt; font-family: sans-serif; text-align: center;">
+
+</body>
+</html>
